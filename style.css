@@ -1,0 +1,72 @@
+p {
+  border-bottom: solid 1px black;
+  width: 150px;
+  margin-top: 0;
+}
+
+#leftside {
+  float: left;
+}
+
+#rightside {
+  float: right;
+  text-align: right;
+}
+
+#Midwest, #East {
+  padding-bottom: 100px;
+}
+
+.team2 {
+  border-right: solid 1px black;
+}
+
+.team2r {
+  border-left: solid 1px black;
+}
+
+.team1 {
+  margin-bottom: 0;
+}
+
+#leftsideround2 {
+  float: left;
+}
+
+#midwestround2 {
+  margin-top: 5%;
+}
+
+#westround2 {
+  margin-top: 96%;
+}
+
+#rightsideround2 {
+  float: right;
+  position: relative;
+  left: 22px;
+  width: 150px;
+}
+
+#eastround2 {
+  margin-top: 5%;
+}
+
+#southround2 {
+  margin-top: 84%;
+}
+
+.round2 {
+  display: block;
+  width: 85%;
+  margin-right: 0px;
+  font-size: 20px;
+}
+
+.round2gamebox {
+  margin-bottom: 38%;
+  margin-top: 20%;
+}
+
+
+
