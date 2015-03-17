@@ -537,7 +537,7 @@ window.onload = function(){
       sendPicks.append("game62winner", game62winner.value);
       sendPicks.append("game63winner", game63winner.value);
       var request = new XMLHttpRequest();
-      request.open("POST", "http://localhost:4567/");
+      request.open("POST", "/");
       request.send(sendPicks);
     };
   });

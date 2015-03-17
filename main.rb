@@ -35,5 +35,6 @@ get "/" do
 end
 
 post "/" do
+  binding.pry
   Bracket.create(params)
 end
