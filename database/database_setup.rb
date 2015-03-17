@@ -1,0 +1,70 @@
+
+unless ActiveRecord::Base.connection.table_exists?(:brackets)
+  ActiveRecord::Base.connection.create_table :brackets do |t|
+    t.text :name
+    t.text :game1winner
+    t.text :game2winner
+    t.text :game3winner
+    t.text :game4winner
+    t.text :game5winner
+    t.text :game6winner
+    t.text :game7winner
+    t.text :game8winner
+    t.text :game9winner
+    t.text :game10winner
+    t.text :game11winner
+    t.text :game12winner
+    t.text :game13winner
+    t.text :game14winner
+    t.text :game15winner
+    t.text :game16winner
+    t.text :game17winner
+    t.text :game18winner
+    t.text :game19winner
+    t.text :game20winner
+    t.text :game21winner
+    t.text :game22winner
+    t.text :game23winner
+    t.text :game24winner
+    t.text :game25winner
+    t.text :game26winner
+    t.text :game27winner
+    t.text :game28winner
+    t.text :game29winner
+    t.text :game30winner
+    t.text :game31winner
+    t.text :game32winner
+    t.text :game33winner
+    t.text :game34winner
+    t.text :game35winner
+    t.text :game36winner
+    t.text :game37winner
+    t.text :game38winner
+    t.text :game39winner
+    t.text :game40winner
+    t.text :game41winner
+    t.text :game42winner
+    t.text :game43winner
+    t.text :game44winner
+    t.text :game45winner
+    t.text :game46winner
+    t.text :game47winner
+    t.text :game48winner
+    t.text :game49winner
+    t.text :game50winner
+    t.text :game51winner
+    t.text :game52winner
+    t.text :game53winner
+    t.text :game54winner
+    t.text :game55winner
+    t.text :game56winner
+    t.text :game57winner
+    t.text :game58winner
+    t.text :game59winner
+    t.text :game60winner
+    t.text :game61winner
+    t.text :game62winner
+    t.text :game63winner
+  end
+end
+    
