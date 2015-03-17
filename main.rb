@@ -3,6 +3,10 @@ require 'bundler/setup'
 Bundler.require(:default)
 
 configure :development do
+  require "sqlite3"
+end
+
+configure :development do
   DATABASE = SQLite3::Database.new("./database/bracket.db")
 end
 
