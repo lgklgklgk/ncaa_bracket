@@ -6,3 +6,4 @@ gem 'sinatra'
 gem 'sqlite3', :groups => [:development, :test]
 gem 'pry'
 gem 'sinatra-activerecord'
+gem 'pg', :groups => [:production]
