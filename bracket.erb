@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head><title>NCAA BRACKET</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div id="mainwrapper">
+    <div id="leftside">
+      <div id="Midwest">
+        <div class="GameBox">
+          <p class="team1">1 Kentucky</p>
+          <p class="team2">16 HAMP/MAN</p>
+        </div>
+        <div class="GameBox">  
+          <p class="team1">8 Cincinnati</p>
+          <p class="team2">9 Purdue</p>
+        </div>  
+        <div class="GameBox"> 
+          <p class="team1">5 West Virginia</p>
+          <p class="team2">12 Buffalo</p>
+        </div> 
+        <div class="GameBox">  
+          <p class="team1">4 Maryland</p>
+          <p class="team2">13 Valparaiso</p>
+        </div>
+        <div class="GameBox">   
+          <p class="team1">6 Butler</p>
+          <p class="team2">11 Texas</p>
+        </div>
+        <div class="GameBox">   
+          <p class="team1">3 Notre Dame</p>
+          <p class="team2">14 Northeastern</p>
+        </div>
+        <div class="GameBox">   
+          <p class="team1">7 Wichita State</p>
+          <p class="team2">10 Indiana</p>
+        </div>
+        <div class="GameBox">   
+          <p class="team1">2 Kansas</p>
+          <p class="team2">15 New Mexico St.</p>
+        </div>  
+      </div>   
+      <div id="West">
+        <div class="GameBox"> 
+          <p class="team1">1 Wisconsin</p>
+          <p class="team2">16 Coastal Caro.</p>
+        </div>
+        <div class="GameBox"> 
+          <p class="team1">8 Oregon</p>
+          <p class="team2">9 Oklahoma State</p>
+        </div>
+        <div class="GameBox"> 
+          <p class="team1">5 Arkansas</p>
+          <p class="team2">12 Wofford</p>
+        </div>
+        <div class="GameBox"> 
+          <p class="team1">4 North Carolina</p>
+          <p class="team2">13 Harvard</p>
+        </div>
+        <div class="GameBox"> 
+          <p class="team1">6 Xavier</p>
+          <p class="team2">11 BYU/MISS</p>
+        </div>
+        <div class="GameBox"> 
+          <p class="team1">3 Baylor</p>
+          <p class="team2">14 Georgia State</p>
+        </div>
+        <div class="GameBox"> 
+          <p class="team1">7 VCU</p>
+          <p class="team2">10 Ohio State</p>
+        </div>
+        <div class="GameBox"> 
+          <p class="team1">2 Arizona</p>
+          <p class="team2">15 Texas Southern</p>
+        </div>
+      </div>  
+    </div>
+  <div id="leftsideround2">
+    <div id="midwestround2">
+      <div class="round2gamebox">
+        <select id="round2game1box1" class="round2">
+          <option>Pick Winner</option>
+          <option value="Kentucky">1 Kentucky</option>
+          <option value="Manhattan">16 Manhattan</option>
+          <option value="Hampton">16 Hampton</option>
+        </select>  
+        <select id="round2game1box2" class="round2">
+          <option>Pick Winner</option>
+          <option value="Cincinnati">8 Cincinnati</option>
+          <option value="Purdue">9 Purdue</option>
+        </select> 
+      </div>
+      <div class="round2gamebox">  
+        <select id="round2game2box1" class="round2">
+          <option>Pick Winner</option>
+          <option value="West Virgina">5 West Virginia</option>
+          <option value="Buffalo">12 Buffalo</option>
+        </select> 
+        <select id="round2game2box2" class="round2">
+          <option>Pick Winner</option>
+          <option value="Maryland">4 Maryland</option>
+          <option value="Valparaiso">13 Valparaiso</option>
+        </select>
+      </div>
+      <div class="round2gamebox">  
+        <select id="round2game3box1" class="round2">
+          <option>Pick Winner</option>
+          <option value="Butler">6 Butler</option>
+          <option value="Texas">11 Texas</option>
+        </select>
+        <select id="round2game3box2" class="round2">
+          <option>Pick Winner</option>
+          <option value="Notre Dame">3 Notre Dame</option>
+          <option value="Northeastern">14 Northeastern</option>
+        </select>
+      </div>
+      <div class="round2gamebox">
+        <select id="round2game4box1" class="round2">
+          <option>Pick Winner</option>
+          <option value="Wichita State">7 Wichita State</option>
+          <option value="Indiana">10 Indiana</option>
+        </select>
+        <select id="round2game4box2" class="round2">
+          <option>Pick Winner</option>
+          <option value="Kansas">2 Kansas</option>
+          <option value="New Mexico St.">15 New Mexico St.</option>
+        </select>
+      </div>  
+    </div>       
+    <div id="westround2">
+      <div class="round2gamebox" style="margin-top: 106%;">
+        <select id="round2game5box1" class="round2">
+          <option>Pick Winner</option>
+          <option value="Wisconsin">1 Wisconsin</option>
+          <option value="Coastal Caro.">16 Coastal Caro.</option>
+        </select>
+        <select id="round2game5box2" class="round2">
+          <option>Pick Winner</option>
+          <option value="Oregon">8 Oregon</option>
+          <option value="Oklahoma State">9 Oklahoma State</option>
+        </select>
+      </div>  
+      <div class="round2gamebox">
+        <select id="round2game6box1" class="round2">
+          <option>Pick Winner</option>
+          <option value="Arkansas">5 Arkansas</option>
+          <option value="Wofford">12 Wofford</option>
+        </select>
+        <select id="round2game6box2" class="round2">
+          <option>Pick Winner</option>
+          <option value="North Carolina">4 North Carolina</option>
+          <option value="Harvard">13 Harvard</option>
+        </select>
+      </div>  
+      <div class="round2gamebox">
+        <select id="round2game7box1" class="round2">
+          <option>Pick Winner</option>
+          <option value="Xavier">6 Xavier</option>
+          <option value="BYU">11 BYU</option>
+          <option value="Mississippi">11 Mississippi</option>
+        </select>
+        <select id="round2game7box2" class="round2">
+          <option>Pick Winner</option>
+          <option value="Baylor">3 Baylor</option>
+          <option value="Georgia State">14 Georgia State</option>
+        </select>
+        </div>
+      <div class="round2gamebox">
+        <select id="round2game8box1" class="round2">
+          <option>Pick Winner</option>
+          <option value="VCU">7 VCU</option>
+          <option value="Ohio State">10 Ohio State</option>
+        </select>
+        <select id="round2game8box2" class="round2">
+          <option>Pick Winner</option>
+          <option value="Arizona">2 Arizona</option>
+          <option value="Texas Southern">15 Texas Southern</option>
+        </select>
+      </div>  
+    </div>
+  </div>  
+  <div id="leftsideround3">
+    <div id="midwestround3">  
+      <div class="round3gamebox">
+        <select id="round3game1box1" class="round3">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+        <select id="round3game1box2" class="round3">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+      </select>
+      </div>
+      <div class="round3gamebox">
+        <select id="round3game2box1" class="round3">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+        <select id="round3game2box2" class="round3">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+      </div>
+    </div>
+    <div id="westround3">
+      <div class="round3gamebox">
+        <select id="round3game3box1" class="round3">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+        <select id="round3game3box2" class="round3">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+      </div>
+      <div class="round3gamebox">
+        <select id="round3game4box1" class="round3">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+        <select id="round3game4box2" class="round3">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+      </div>
+    </div>  
+  </div>
+  <div id="leftsideround4">
+    <div id="midwestround4">
+      <div class="round4gamebox">
+        <select id="round4game1box1" class="round4">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+        <select id="round4game1box2" class="round4">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+      </div>
+    </div>
+    <div id="westround4">
+      <div class="round4gamebox">
+        <select id="round4game2box1" class="round4">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+        <select id="round4game2box2" class="round4">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+      </div>  
+    </div>
+  </div>    
+  <div id="leftsideround5">
+    <div id="leftchamp">
+      <div class="round5gamebox">
+        <select id="round5game1box1" class="round5">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+        <select id="round5game1box2" class="round5">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+      </div>
+    </div>
+  </div>    
+  <div id="rightside">     
+    <div id="East">
+      <div class="GameBox"> 
+        <p class="team1">Villanova 1</p>
+        <p class="team2r">Lafayette 16</p>
+      </div>
+      <div class="GameBox"> 
+        <p class="team1">NC State 8</p>
+        <p class="team2r">LSU 9</p>
+      </div>
+      <div class="GameBox"> 
+        <p class="team1">UNI 5</p>
+        <p class="team2r">Wyoming 12</p>
+      </div>
+      <div class="GameBox"> 
+        <p class="team1">Louisville 4</p>
+        <p class="team2r">UC Irvine 13</p>
+      </div>
+      <div class="GameBox"> 
+        <p class="team1">Providence 6</p>
+        <p class="team2r">BOISE/DAY 11</p>    
+      </div>
+      <div class="GameBox"> 
+        <p class="team1">Oklahoma 3</p>
+        <p class="team2r">Albany 14</p>
+      </div>
+      <div class="GameBox"> 
+        <p class="team1">Michigan State 7</p>
+        <p class="team2r">Georgia 10</p>
+      </div>
+      <div class="GameBox"> 
+        <p class="team1">Virgina 2</p>
+        <p class="team2r">Belmont 15</p>
+      </div>          
+    </div>  
+    <div id="South">
+      <div class="GameBox"> 
+        <p class="team1">Duke 1</p>
+        <p class="team2r">UNF/RMU 16</p>
+      </div>
+      <div class="GameBox"> 
+        <p class="team1">San Diego State 8</p>
+        <p class="team2r">St. John's 9</p>
+      </div>
+      <div class="GameBox"> 
+        <p class="team1">Utah 5</p>
+        <p class="team2r">Steph. F. Austin 12</p>
+      </div>
+      <div class="GameBox"> 
+        <p class="team1">Georgetown 4</p>
+        <p class="team2r">Eastern Wash. 13</p>
+      </div>
+      <div class="GameBox"> 
+        <p class="team1">SMU 6</p>
+        <p class="team2r">UCLA 11</p>
+      </div>
+      <div class="GameBox"> 
+        <p class="team1">Iowa State 3</p>
+        <p class="team2r">UAB 14</p>
+      </div>
+      <div class="GameBox"> 
+        <p class="team1">Iowa 7</p>
+        <p class="team2r">Davidson 10</p>
+      </div>
+      <div class="GameBox"> 
+        <p class="team1">Gonzaga 2</p>
+        <p class="team2r">North Dakota St. 15</p>
+      </div>   
+    </div>               
+  </div>    
+  <div id="rightsideround2">
+    <div id="eastround2">  
+      <div class="round2gamebox">
+        <select id="round2game9box1" class="round2">
+          <option>Pick Winner</option>
+          <option value="Villanova">Villanova 1</option>
+          <option value="Lafayette">Lafayette 16</option>
+        </select>
+        <select id="round2game9box2" class="round2">
+          <option>Pick Winner</option>
+          <option value="NC State">NC State 8</option>
+          <option value="LSU">LSU 9</option>
+        </select>
+      </div>
+      <div class="round2gamebox">
+        <select id="round2game10box1" class="round2">
+          <option>Pick Winner</option>
+          <option value="UNI">UNI 5</option>
+          <option value="Wyoming">Wyoming 12</option>
+        </select>
+        <select id="round2game10box2" class="round2">
+          <option>Pick Winner</option>
+          <option value="Louisville">Louisville 4</option>
+          <option value="UC Irvine">UC Irvine 13</option>
+        </select>
+      </div>
+      <div class="round2gamebox">
+        <select id="round2game11box1" class="round2">
+          <option>Pick Winner</option>
+          <option value="Providence">Providence 6</option>
+          <option value="Boise St.">Boise St. 11</option>
+          <option value="Dayton">Dayton 11</option>
+        </select>
+        <select id="round2game11box2" class="round2">
+          <option>Pick Winner</option>
+          <option value="Oklahoma">Oklahoma 3</option>
+          <option value="Albany">Albany 14</option>
+        </select>
+      </div>
+      <div class="round2gamebox">
+        <select id="round2game12box1" class="round2">
+          <option>Pick Winner</option>
+          <option value="Michigan State">Michigan State 7</option>
+          <option value="Georgia">Georgia 10</option>
+        </select>
+        <select id="round2game12box2" class="round2">
+          <option>Pick Winner</option>
+          <option value="Virginia">Virginia 2</option>
+          <option value="Belmont">Belmont 15</option>
+        </select>
+      </div>
+    </div>  
+    <div id="southround2">
+      <div class="round2gamebox" style="margin-top: 106%;">
+        <select id="round2game13box1" class="round2">
+          <option>Pick Winner</option>
+          <option value="Duke">Duke 1</option>
+          <option value="UNF">UNF 16</option>
+          <option value="RMU">RMU 16</option>
+        </select>
+        <select id="round2game13box2" class="round2">
+          <option>Pick Winner</option>
+          <option value="San Diego St.">San Diego St. 8</option>
+          <option value="St. John's">St. John's 9</option>
+        </select>
+      </div>
+      <div class="round2gamebox">
+        <select id="round2game14box1" class="round2">
+          <option>Pick Winner</option>
+          <option value="Utah">Utah 5</option>
+          <option value="Steph. F. Austin">Steph. F. Austin 12</option>
+        </select>
+        <select id="round2game14box2" class="round2">
+          <option>Pick Winner</option>
+          <option value="Georgetown">Georgetown 4</option>
+          <option value="Eastern Wash.">Eastern Wash. 13</option>
+        </select>
+      </div>
+      <div class="round2gamebox">
+        <select id="round2game15box1" class="round2">
+          <option>Pick Winner</option>
+          <option value="SMU">SMU 6</option>
+          <option value="UCLA">UCLA 11</option>
+        </select>
+        <select id="round2game15box2" class="round2">
+          <option>Pick Winner</option>
+          <option value="Iowa State">Iowa State 3</option>
+          <option value="UAB">UAB 14</option>
+        </select>
+      </div>
+      <div class="round2gamebox">
+        <select id="round2game16box1" class="round2">
+          <option>Pick Winner</option>
+          <option value="Iowa">Iowa 7</option>
+          <option value="Davidson">Davidson 10</option>
+        </select>
+        <select id="round2game16box2" class="round2">
+          <option>Pick Winner</option>
+          <option value="Gonzaga">Gonzaga 2</option>
+          <option value="North Dakota St.">North Dakota St. 15</option>
+        </select>
+      </div>
+    </div>  
+  </div>   
+  <div id="rightsideround3">
+    <div id="eastround3">
+      <div class="round3gamebox">
+        <select id="round3game5box1" class="round3">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+        <select id="round3game5box2" class="round3">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+      </div>  
+      <div class="round3gamebox">
+        <select id="round3game6box1" class="round3">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+        <select id="round3game6box2" class="round3">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>  
+      </div>  
+    </div>
+    <div id="southround3">
+      <div class="round3gamebox">
+        <select id="round3game7box1" class="round3">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+        <select id="round3game7box2" class="round3">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+      </div>
+      <div class="round3gamebox">
+        <select id="round3game8box1" class="round3">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+        <select id="round3game8box2" class="round3">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+      </div>    
+    </div>  
+  </div> 
+  <div id="rightsideround4">
+    <div id="eastround4">    
+      <div class="round4gamebox">
+        <select id="round4game3box1" class="round4">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+        <select id="round4game3box2" class="round4">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+      </div>
+    </div>
+    <div id="southround4">
+      <div class="round4gamebox">
+        <select id="round4game4box1" class="round4">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+        <select id="round4game4box2" class="round4">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+      </div>
+    </div>
+  </div> 
+  <div id="rightsideround5">
+    <div id="rightchamp">  
+      <div class="round5gamebox">
+        <select id="round5game2box1" class="round5">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+        <select id="round5game2box2" class="round5">
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+          <option value=>Pick Winner</option>
+        </select>
+      </div>   
+    </div>
+  </div>
+  <div id="finalfour"> 
+    <div class="round6gamebox">
+      <select id="round6game1box1" class="round6">
+        <option value=>Pick Winner</option>
+        <option value=>Pick Winner</option>
+        <option value=>Pick Winner</option>
+      </select>
+      <select id="round6game2box1" class="round6">
+        <option value=>Pick Winner</option>
+        <option value=>Pick Winner</option>
+        <option value=>Pick Winner</option>
+      </select>
+    </div> 
+  </div>    
+  <div id="championship">
+    <div class="round7gamebox">
+      <select id="round7game1box1" class="round7">
+        <option value=>Pick Winner</option>
+        <option value=>Pick Winner</option>
+        <option value=>Pick Winner</option>
+      </select>
+    </div>
+  </div>    
+  </div>       
+</body>  
+</html>  
