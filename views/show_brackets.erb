@@ -4,7 +4,7 @@
 </head>  
 <body>
   <% @brackets.each do |x| %>
-  <h5><%= "#{x.name} = #{x.score}" %></h5>
+  <h5><%= "#{x.name[0..30].gsub(/\s\w+$/,'...')} = #{x.score}" %></h5>
   <% end %>
 </body>
 </html>    
