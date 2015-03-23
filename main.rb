@@ -40,6 +40,6 @@ post "/" do
 end
 
 get "/brackets" do
-  @brackets = Bracket.all
+  @brackets = Bracket.all_by_score
   erb :show_brackets
 end
