@@ -1,5 +1,9 @@
 class Bracket < ActiveRecord::Base
 
+  def self.all_by_score
+    all.sort!{ |x,y| y.points <=> x.points }
+  end
+
   def score
     points = 0
     if game1winner == "Kentucky"
