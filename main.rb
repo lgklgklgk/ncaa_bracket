@@ -35,6 +35,11 @@ get "/" do
 end
 
 post "/" do
-  binding.pry
-  Bracket.create(params)
+  #Bracket.create(params)
+  #The Time for entering brackets is ovah!
+end
+
+get "/brackets" do
+  @brackets = Bracket.all
+  erb :show_brackets
 end

@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head><title>NCAA BRACKET</title>
+</head>  
+<body>
+  <% @brackets.each do |x| %>
+  <h5><%= "#{x.name} = #{x.score}" %></h5>
+  <% end %>
+</body>
+</html>    
