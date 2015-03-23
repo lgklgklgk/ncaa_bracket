@@ -1,7 +1,7 @@
 class Bracket < ActiveRecord::Base
 
   def self.all_by_score
-    all.sort!{ |x,y| y.points <=> x.points }
+    all.sort{ |x,y| y.score <=> x.score }
   end
 
   def score
