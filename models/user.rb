@@ -198,6 +198,22 @@ class Bracket < ActiveRecord::Base
       points += 2
       
     end
+    if game49winner == "Kentucky"
+      points += 4
+      
+    end
+    if game50winner == "Notre Dame"
+      points += 4
+      
+    end
+    if game51winner == "Wisconsin"
+      points += 4
+      
+    end
+    if game52winner == "Arizona"
+      points += 4
+      
+    end
     return points
   end
 end
