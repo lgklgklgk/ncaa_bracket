@@ -214,6 +214,23 @@ class Bracket < ActiveRecord::Base
       points += 4
       
     end
+    if game53winner == "Louisville"
+      points += 4
+      
+    end
+    if game54winner == "Michigan State"
+      points += 4
+      
+    end
+    if game55winner == "Duke"
+      points += 4
+      
+    end
+    if game56winner == "Gonzaga"
+      points += 4
+      
+    end
+    
     return points
   end
 end
