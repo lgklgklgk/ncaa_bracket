@@ -254,11 +254,12 @@ class Bracket < ActiveRecord::Base
       points += 16
       
     end
-  end
-  if game63winner == "Duke"
-    points += 32
+    if game63winner == "Duke"
+      points += 32
     
+    end
   end
+ 
     return points
   end
 end
