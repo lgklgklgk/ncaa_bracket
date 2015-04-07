@@ -258,7 +258,7 @@ class Bracket < ActiveRecord::Base
       points += 32
     
     end
-  end
+  
  
     return points
   end
